@@ -5,12 +5,12 @@ import { ThemeProvider } from 'styled-components';
 import { GlobalStyles } from './styles/global-styles';
 import { dark } from './styles/themes/dark';
 
-import { App } from './App';
+import { Home } from './templates';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <ThemeProvider theme={dark}>
-      <App />
+      <Home />
       <GlobalStyles />
     </ThemeProvider>
   </React.StrictMode>,
