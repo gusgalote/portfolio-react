@@ -1,12 +1,8 @@
-import { useState } from 'react';
 import P from 'prop-types';
+import { Heading } from './components';
 
-const App = ({ children }) => {
-  return <h1>{children}</h1>;
+const App = () => {
+  return <Heading>Title</Heading>;
 };
 
 export { App };
-
-App.propTypes = {
-  children: P.string.isRequired,
-};
