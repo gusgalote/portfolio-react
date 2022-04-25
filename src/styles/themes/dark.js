@@ -37,6 +37,7 @@ const dark = {
   },
   media: {
     lessThanMedium: '(max-width: 768px)',
+    moreThanExtraLarge: '(min-width: 1300px)',
   },
   spacings: {
     xsmall: '0.8rem',

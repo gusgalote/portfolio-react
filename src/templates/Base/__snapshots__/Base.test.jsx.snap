@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Base /> should match snapshot for default styles 1`] = `
+.c0 {
+  display: block;
+}
+
+.c1 {
+  width: 100%;
+  padding-top: 4.0rem;
+  padding-bottom: 4.0rem;
+  padding-right: 1.6rem;
+  padding-left: 1.6rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media (max-width:768px) {
+  .c1 {
+    max-width: 540px;
+  }
+}
+
+@media (min-width:1300px) {
+  .c1 {
+    max-width: 1230px;
+  }
+}
+
+<main
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    test
+  </div>
+</main>
+`;

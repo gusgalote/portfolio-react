@@ -8,6 +8,8 @@ module.exports = {
     '!<rootDir>/src/**/*mock*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/styles/**/*.{js,jsx,ts,tsx}',
     '!<rootDir>/src/components/index.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/templates/index.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/templates/Home/*.{js,jsx,ts,tsx}',
     '!<rootDir>/node_modules/',
   ],
   testEnvironment: 'jsdom',
