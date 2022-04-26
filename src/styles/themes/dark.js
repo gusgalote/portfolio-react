@@ -50,7 +50,7 @@ const dark = {
     xhuge: '6.4rem',
   },
   radius: {
-    borderDefault: '18px',
+    default: '18px',
   },
 };
 
