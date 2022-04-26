@@ -5,7 +5,9 @@ import * as Styled from './Base.styles';
 const Base = ({ children }) => {
   return (
     <Styled.Main>
-      <Styled.Container>{children}</Styled.Container>
+      <Styled.Container>
+        <Styled.Row>{children}</Styled.Row>
+      </Styled.Container>
     </Styled.Main>
   );
 };
