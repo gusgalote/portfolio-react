@@ -49,6 +49,9 @@ const dark = {
     huge: '5.6rem',
     xhuge: '6.4rem',
   },
+  radius: {
+    borderDefault: '18px',
+  },
 };
 
 export { dark };
