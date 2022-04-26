@@ -10,6 +10,7 @@ module.exports = {
     '!<rootDir>/src/components/index.{js,jsx,ts,tsx}',
     '!<rootDir>/src/templates/index.{js,jsx,ts,tsx}',
     '!<rootDir>/src/templates/Home/*.{js,jsx,ts,tsx}',
+    '!<rootDir>/src/**/*stories*.{js,jsx,ts,tsx}',
     '!<rootDir>/node_modules/',
   ],
   testEnvironment: 'jsdom',
