@@ -39,6 +39,13 @@ const GlobalStyles = createGlobalStyle`
     color: ${({ theme }) => theme.colors.secondaryColor}
   }
 
+  img {
+    width: 100%;
+    vertical-align: middle;
+
+    user-select: none;
+  }
+
   .table {
     width: 100%;
     overflow-y: auto;

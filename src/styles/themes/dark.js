@@ -11,8 +11,10 @@ const dark = {
     gray: '#595959',
     grayDark: '#333',
     grayDarker: '#1a1a1a',
-    gradient:
+    gradientPurple:
       'linear-gradient(90deg, rgba(170,151,210,1) 35%, rgba(120,99,165,1) 51%, rgba(102,87,139,1) 100%)',
+    gradientDark:
+      'linear-gradient(184deg, rgba(51,51,51,1) 1%, rgba(34,34,34,1) 99%)',
   },
   font: {
     family: {
@@ -51,6 +53,7 @@ const dark = {
   },
   radius: {
     default: '18px',
+    big: '34px',
   },
 };
 
