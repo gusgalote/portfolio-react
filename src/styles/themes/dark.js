@@ -22,12 +22,14 @@ const dark = {
     },
     weights: {
       xlight: '200',
+      light: '300',
       default: '400',
       semibold: '500',
-      bold: '700',
+      bold: '600',
     },
     sizes: {
-      xsmall: '0.8rem',
+      xxsmall: '0.8rem',
+      xsmall: '1.2rem',
       small: '1.6rem',
       medium: '2.4rem',
       large: '3.2rem',
