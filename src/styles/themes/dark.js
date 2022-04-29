@@ -13,7 +13,7 @@ const dark = {
     grayDarker: '#1a1a1a',
     gradientPurple:
       'linear-gradient(90deg, rgba(170,151,210,1) 35%, rgba(120,99,165,1) 51%, rgba(102,87,139,1) 100%)',
-    gradientDark:
+    gradientBackground:
       'linear-gradient(184deg, rgba(51,51,51,1) 1%, rgba(34,34,34,1) 99%)',
   },
   font: {
@@ -54,6 +54,7 @@ const dark = {
     xhuge: '6.4rem',
   },
   radius: {
+    small: '8px',
     default: '18px',
     big: '34px',
   },

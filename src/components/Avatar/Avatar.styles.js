@@ -19,8 +19,7 @@ export const Figure = styled.figure`
     margin-inline-start: 40px;
     margin-inline-end: 40px;
 
-    margin: ${theme.spacings.medium} ${theme.spacings.medium}
-      ${theme.spacings.small};
+    margin: ${theme.spacings.small} auto ${theme.spacings.xsmall};
 
     overflow: hidden;
 
@@ -31,7 +30,7 @@ export const Figure = styled.figure`
       height: 80px;
     }
 
-    background: ${theme.colors.gradientDark};
+    background: ${theme.colors.gradientBackground};
     border-radius: ${theme.radius.default};
 
     img {
