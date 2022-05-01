@@ -23,11 +23,11 @@ export const Figure = styled.figure`
 
     overflow: hidden;
 
-    ${figureSizes[size](theme)};
+    width: 80px;
+    height: 80px;
 
-    @media ${theme.media.lessThanMedium} {
-      width: 80px;
-      height: 80px;
+    @media ${theme.media.moreThanExtraLarge} {
+      ${figureSizes[size](theme)};
     }
 
     background: ${theme.colors.gradientBackground};
