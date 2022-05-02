@@ -11,10 +11,12 @@ const dark = {
     gray: '#595959',
     grayDark: '#333',
     grayDarker: '#1a1a1a',
-    gradientPurple:
-      'linear-gradient(90deg, rgba(170,151,210,1) 35%, rgba(120,99,165,1) 51%, rgba(102,87,139,1) 100%)',
+    gradientPrimary:
+      'linear-gradient(155deg, #AA97d2 0%, rgba(255, 191, 96, 0) 50%)',
     gradientBackground:
       'linear-gradient(184deg, rgba(51,51,51,1) 1%, rgba(34,34,34,1) 99%)',
+    gradientBorder:
+      'linear-gradient(135deg, #404040 0%, rgba(64, 64, 64, 0) 48.44%)',
   },
   font: {
     family: {
@@ -25,7 +27,7 @@ const dark = {
       light: '300',
       default: '400',
       semibold: '500',
-      bold: '600',
+      xbold: '600',
     },
     sizes: {
       xxsmall: '0.8rem',
