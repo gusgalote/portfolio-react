@@ -2,12 +2,12 @@ import styled, { css } from 'styled-components';
 
 const figureSizes = {
   small: (theme) => css`
-    width: 160px;
-    height: 160px;
-  `,
-  big: (theme) => css`
     width: 80px;
     height: 80px;
+  `,
+  big: (theme) => css`
+    width: 160px;
+    height: 160px;
   `,
 };
 
