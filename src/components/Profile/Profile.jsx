@@ -15,7 +15,7 @@ import * as Styled from './Profile.styles';
 import { Avatar, Heading, Badge } from '../';
 
 const Profile = () => {
-  const [showDetails, setShowDetails] = useState(true);
+  const [showDetails, setShowDetails] = useState(false);
 
   const handleToggleDetails = () => {
     setShowDetails((prevState) => !prevState);
@@ -32,11 +32,11 @@ const Profile = () => {
           <Heading size="small">Gustavo Galote</Heading>
           <Badge>Web Developer</Badge>
         </Styled.TextCenter>
-        <Styled.DetailsButton onClick={handleToggleDetails}>
+        <Styled.DetailsButton id="details-button" onClick={handleToggleDetails}>
           <FiChevronDown />
         </Styled.DetailsButton>
       </Styled.MainInfo>
-      <Styled.DetailsInfo showDetails={showDetails}>
+      <Styled.DetailsInfo id="details" showDetails={showDetails}>
         <Styled.Separation />
         <Styled.DetailsList>
           <Styled.DetailsListItem>
